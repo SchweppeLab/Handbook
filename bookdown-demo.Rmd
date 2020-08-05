@@ -14,7 +14,7 @@ description: "This is a lab handbook for the Schweppe Lab within the Department 
 
 # Welcome!
 
-Welcome to the Schweppe Lab Handbook.The handbook was developed by the [Devin Schweppe](https://www.schweppelab.org/) as a guide for new and current members of the lab. The goal of this handbook is to provide resources, guidelines, and information to foster an environment of scientific excellence and personal development that is inclusive and (hopefully) fun. More information on the lab and department can be found through the following resources:
+Welcome to the Schweppe Lab Handbook.The handbook was developed by [Devin Schweppe](https://www.schweppelab.org/) as a guide for new and current members of the lab. The goal of this handbook is to provide resources, guidelines, and information to foster an environment of scientific excellence and personal development that is inclusive and (hopefully) fun. More information on the lab and department can be found through the following resources:
 
 * [The Lab website](https://www.schweppelab.org)
 * [The Lab Slack Channel](https://schweppelab.slack.com/)
@@ -33,7 +33,8 @@ No one can accomplish the work we are striving to do alone. By joining this lab,
 
 The following applies to all full-time, part-time, and undergraduate lab members.
 
-***The Big Picture*** 
+***The Big Picture***
+
 *	Do work that you are proud of. Do work that others will care about. If you feel as though your work does not meet these standards, let’s find a solution.
 *	Double-check your work. Being a little obsessive is essential to good science.
 *	Be supportive of your labmates. We are an inclusive team, act like it.
@@ -43,7 +44,8 @@ The following applies to all full-time, part-time, and undergraduate lab members
 *	Academia may feel different from other types of jobs, but it is still a job. You should treat coming into lab with the same respect that you would treat any other position. 
 *	Communicate openly and respectfully with other members of the lab.
 
-***The Small Picture*** 
+***The Small Picture***
+
 *	Do not come into the lab if you are sick. Stay home and get healthy, and don't risk getting others sick.
 *	Notify the lab manager or me if you will be taking the day off from work, either due to illness or vacation. If you are sick and you had experiments or meetings scheduled that day, notify your participants or collaborators and reschedule. Please also update your Slack status.
 * *No food* is allowed at desks in the bays. Food can be consumed in the dry lab area, the common areas outside of the lab, or outside on a nice day!
@@ -55,6 +57,7 @@ The following applies to all full-time, part-time, and undergraduate lab members
 
 ### For the PI
 All of the points in the *Everyone* section, and you can expect me to:
+
 *	Maintain a vision of where the lab is going.
 *	Apply for and secure the funding necessary to keep the lab going.
 *	Meet with you regularly to discuss your research projects. The definition of "regularly" may change over time or over the course of a project, but for now, I mean once a week or more often as needed.
@@ -66,6 +69,7 @@ All of the points in the *Everyone* section, and you can expect me to:
 
 ### For Post-docs
 All of the points in the *Everyone* section, and they are expected to:
+
 *	Develop your own independent line of research.
 *	Mentor undergraduate and graduate students on their research projects, when asked or when appropriate.
 *	Apply for external funding (e.g., NRSA, K99, Damon-Runyon, Ford). I will hire postdocs only when there is funding available for at least a year; however, applying for external funding is a valuable experience and, if awarded, it will release those dedicated funds for other purposes.
@@ -75,14 +79,16 @@ All of the points in the *Everyone* section, and they are expected to:
 
 ### For Graduate Students
 All of the points in the *Everyone* section, and they are expected to:
+
 *	Develop a line of dissertation research. Ideally, your dissertation research will consist of at least 3 experiments that can be packaged into one thesis document.
 *	Apply for external funding (e.g., NSF GRFP or NRSA). This is a valuable learning experience and a great honor if awarded.
 *	Research what type of career you want to pursue, e.g., academic jobs that are research-focused or teaching-focused, non-academic jobs like data science or science writing. We can brainstorm ways of making sure you are getting the training that you need.
-*	Stay up-to-date (and keep me up-to-date) on any deadlines that you need to meet to fulfill departmental requirements. In general, this includes your external funding applications, your quialifying exam, and your dissertation proposal and defense.
+*	Stay up-to-date (and keep me up-to-date) on any deadlines that you need to meet to fulfill departmental requirements. In general, this includes your external funding applications, your qualifying exam, and your dissertation proposal and defense.
 *	Prioritize time for research. It is easy to get caught up in coursework or TA-ing, but at the end of 5-ish years, you need to have completed a dissertation.
 
 ### For Lab Managers & Research Scientists
 All of the points in the *Everyone* section, and they are expected to:
+
 *	Maintain the lab IRB protocols and paperwork (e.g., archiving consent forms).
 *	Oversee the hiring, scheduling, and training of undergraduate research assistants.
 *	Maintain the lab internal website.
@@ -95,8 +101,7 @@ All of the points in the *Everyone* section, and they are expected to:
 
 
 ### Lab Architecture
-
-The PI, for better or worse, shoulders responsibility for the work conducted by her lab group. While everyone involved in the work will be acknowledged when work we have done is published or praised, the PI will always be primarily responsible for correcting problems when they arise, no matter who really caused them. Our work can be questioned years after it has been carried out and published, meaning the PI is the only person committed to this for long enough to realistically keep this committment. 
+The PI, for better or worse, shoulders responsibility for the work conducted by her lab group. While everyone involved in the work will be acknowledged when work we have done is published or praised, the PI will always be primarily responsible for correcting problems when they arise, no matter who really caused them. Our work can be questioned years after it has been carried out and published, meaning the PI is the only person committed to this for long enough to realistically keep this commitment. 
 
 For some post-doctoral and PGR projects, the researchers involved might share a long-term commitment to the research and be the "local PI" on the work. In those cases, they will act as the primary person responsible for those projects. Even so, the PI must always have access to enough information about these projects to independently reproduce analyses and replicate findings.
 
