@@ -1,13 +1,33 @@
-# Literature
+# Code of Conduct {#code}
 
-Background literature for the lab can be found in the "Getting Started" Google Drive folder. You will be given access to this upon joining. If you need access, ask Devin about this.
+## General
 
-Below find links to papers that may be of interest to explore new topics or get caught up on where the lab is now.
+In addition to the general expectations laid out above, I am dedicated to making our lab a safe, inclusive, and welcoming environment for all. Below you can find a specific code of conduct for behavior in the lab, as well as a broader discussion of what constitutes an inclusive environment. For more information on professional conduct see the [UW SoM Policy on Professional Conduct](https://www.gs.washington.edu/office/facultyresources/policies/conduct.pdf).
 
-## Proteomics
+I encourage you also to visit the departmental site dedicated to [diversity, equity, and inclusion (DEI)](https://www.gs.washington.edu/about/dei/index.htm) as well as the UW HR site for DEI information: https://hr.uw.edu/diversity/
 
-## Multiplex quantitation
+## Building an Inclusive Lab Environment
 
-## Proteome data analysis
+All members of the lab, along with visitors, are expected to agree to the following code of conduct. More information on UW anti-harassment resources are available through the [GS website](https://www.gs.washington.edu/academics/gradprogram/handbook/general/antiharassment.htm).
 
-## Adaptive instrument control
+### Code of Conduct
+
+The lab is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, socioeconomic status, physical appearance, body size, race, national origin, or religion (or lack thereof). We do not tolerate harassment of lab members in any form.
+
+All lab members will treat one another with respect and be sensitive to how one’s words and actions impact others. We do not tolerate the perpetuation of stereotypes; we do not tolerate other acts of microaggression ([more information](https://www.washington.edu/teaching/topics/inclusive-teaching/addressing-microaggressions-in-the-classroom/) via the UW CTL). We are a team. We stand up for one another. We learn from each other. We hold each other accountable.
+
+## Scientific Integrity
+
+### Reproducible Research
+
+I expect that all of our research will be, at minimum, reproducible (when possible, we will also test for replicability). There are two main things you can do to improve the reproducibility of your research: 1) extensive note-taking (i.e., as much as you can manage) and 2) programming workflows with version control.
+
+Programming workflows help with reproducibility because they take some of the human element out, and in an ideal scenario, you are left with a script or series of scripts that takes data from raw form to final product. Programming alone is not enough, though, because people can easily forget which script changes they made and when. Therefore, all projects that involve programming of any kind (so basically, all projects) must use some form of version control. I strongly recommend git in combination with GitHub (see below), unless you have a pre-existing workflow.
+
+### Authorship
+
+Authorship will be discussed prior to the beginning of a new project, so that expectations are clearly defined. However, changes to authorship may occur over the course of a project if a new person becomes involved or if someone is not fulfilling their planned role. In general, graduate students and postdocs will be a first author on publications on which they are the primary lead, and I will be a last/corresponding author.
+
+### Old Projects
+
+For projects that required significant lab resources (e.g. large scale proteomics experiments): Project "ownership" expires 2 years after data collection has ended or whenever the original primary lead relinquishes their rights to the study, whichever comes first. At that point, I reserve the right to re-assign the project (or not) as needed to expedite publication. This policy is intended to avoid situations in which a dataset languishes for a long period of time, while still giving publication priority to the original primary lead.

@@ -1,4 +1,4 @@
-# Literature
+# Literature {#literature}
 
 Background literature for the lab can be found in the "Getting Started" Google Drive folder. You will be given access to this upon joining. If you need access, ask Devin about this.
 

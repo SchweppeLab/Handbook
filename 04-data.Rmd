@@ -1,4 +1,4 @@
-# Data and Instrumentation
+# Data and Instrumentation {#data}
 
 ## Instrumentation
 
@@ -18,7 +18,7 @@ If you notice significant degradation of instrument performance during or after 
 
 Separation or enrichment of peptides, proteins, and small molecules using high performance liquid chromatography (HPLC) is an integral part of our workflows. Normal HPLCs are often quite robust, while nano-HPLCs can be prone to failure due to their high operational pressures. As with the mass spectrometers any issues with the hardware or software need to be addressed immediately.
 
-## Data, Data Analysis, Data Management
+## Data, Data, Data
 
 ### Scripts and Code
 
@@ -36,13 +36,13 @@ Data for publication will be shared through PRIDE/ProteomeXchange or a similar r
 
 Data can be stored in the following places:
 
-* Lab server
-  + Store: Raw data, search results, basic analyses.
-* Lab partition of departmental storage.
-  + Store: Raw data, data analysis, programs, general utilities, presentations, lab meeting information, protocols, collaboration data.
-* Lab GitHub:
-  + Store: All code/scripts. Yup, all of it.
-* Google Drive (in shared folders):
-  + Store: Personal project information, presentations, figures, pre-print manuscripts, proofs, collaboration data.
+* **Lab server**
+  + *Store*: Raw data, search results, basic analyses.
+* **Lab partition of departmental storage**
+  + *Store*: Raw data, data analysis, programs, general utilities, presentations, lab meeting information, protocols, collaboration data.
+* **Lab GitHub**
+  + *Store*: All code/scripts. Yup, all of it.
+* **Google Drive (in shared folders)**
+  + *Store*: Personal project information, presentations, figures, pre-print manuscripts, proofs, collaboration data.
 
 

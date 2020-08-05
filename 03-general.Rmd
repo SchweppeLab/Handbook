@@ -1,4 +1,4 @@
-# General Policies
+# General Policies {#general}
 
 ## PI Availability
 I will be working on campus and available for meetings most days of the week. If my door is open, feel free to come say "hi". Barring an emergency, if my door is closed, send me a message or try me later rather than knock. I’m also happy to set ad-hoc meetings to discuss anything beyond weekly lab and individual meetings.
