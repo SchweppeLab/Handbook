@@ -1,0 +1,13 @@
+# Literature
+
+Background literature for the lab can be found in the "Getting Started" Google Drive folder. You will be given access to this upon joining. If you need access, ask Devin about this.
+
+Below find links to papers that may be of interest to explore new topics or get caught up on where the lab is now.
+
+## Proteomics
+
+## Multiplex quantitation
+
+## Proteome data analysis
+
+## Adaptive instrument control
