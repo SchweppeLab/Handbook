@@ -1,3 +1,7 @@
-This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). Please see the page "[Get Started](https://bookdown.org/yihui/bookdown/get-started.html)" at https://bookdown.org/yihui/bookdown/ for how to compile this example into HTML. You may generate a copy of the book in `bookdown::pdf_book` format by calling `bookdown::render_book('index.Rmd', 'bookdown::pdf_book')`. More detailed instructions are available here https://bookdown.org/yihui/bookdown/build-the-book.html.
+Welcome to the Schweppe Lab Handbook.The handbook was developed by [Devin Schweppe](https://www.schweppelab.org/) as a guide for new and current members of the lab. The goal of this handbook is to provide resources, guidelines, and information to foster an inclusive environment of scientific excellence and personal development that is inclusive and (hopefully) fun. More information on the lab and department can be found through the following resources:
 
-You can find the preview of this example at https://bookdown.org/yihui/bookdown-demo/.
+* [The Lab website](https://www.schweppelab.org)
+* [The Lab Slack Channel](https://schweppelab.slack.com/)
+* [Departmental website](https://www.gs.washington.edu/)
+
+This handbook has been adapted from and influenced by several other works from the [ Morey](https://ccmorey.github.io/labHandbook/index.html), [ Peele](https://github.com/jpeelle/peellelab_manual/blob/master/peellelab_manual.pdf), and [Ritchey](http://www.thememolab.org/resources/) groups. The Schweppe Lab manual is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
