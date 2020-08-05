@@ -1,4 +1,4 @@
-Welcome to the Schweppe Lab Handbook.The handbook was developed by [Devin Schweppe](https://www.schweppelab.org/) as a guide for new and current members of the lab. The goal of this handbook is to provide resources, guidelines, and information to foster an inclusive environment of scientific excellence and personal development that is inclusive and (hopefully) fun. More information on the lab and department can be found through the following resources:
+Welcome to the Schweppe Lab Handbook. The handbook was developed by [Devin Schweppe](https://www.schweppelab.org/) as a guide for new and current members of the lab. The goal of this handbook is to provide resources, guidelines, and information to foster an environment of scientific excellence and personal development that is inclusive and (hopefully) fun. More information on the lab and department can be found through the following resources:
 
 * [The Lab website](https://www.schweppelab.org)
 * [The Lab Slack Channel](https://schweppelab.slack.com/)
