@@ -8,7 +8,7 @@ documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: rstudio/bookdown-demo
+github-repo: rstudio/LabHandbook
 description: "This is a lab handbook for the Schweppe Lab within the Department of Genome Sciences at the University of Washington."
 ---
 
