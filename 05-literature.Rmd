@@ -6,8 +6,26 @@ Below find links to papers that may be of interest to explore new topics or get 
 
 ## Proteomics
 
+[The abc's (and xyz's) of peptide sequencing, *Nature Reviews Molecular Cell Biology*, 2004](https://www.nature.com/articles/nrm1468)
+
 ## Multiplex quantitation
+
+[Advances in quantitative high-throughput phosphoproteomics with sample multiplexing, *Proteomics*, 2021](https://doi.org/10.1002/pmic.202000140)
+
+[Defining the carrier proteome limit for single-cell proteomics, *Nature Methods*, 2021](https://pubmed.ncbi.nlm.nih.gov/33288958/)
+
+[A Review on Quantitative Multiplexed Proteomics, *ChemBioChem*, 2019](https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC6520187/)
 
 ## Proteome data analysis
 
+[Philosopher: a versatile toolkit for shotgun proteomics data analysis, *Nature Methods*, 2020](https://www.nature.com/articles/s41592-020-0912-y)
+
+[Comet: an open-source MS/MS sequence database search tool, *Proteomics*, 2013](https://pubmed.ncbi.nlm.nih.gov/23148064/)
+
 ## Adaptive instrument control
+
+[Full-Featured, Real-Time Database Searching Platform Enables Fast and Accurate Multiplexed Quantitative Proteomics, *JPR*, 2020](https://pubmed.ncbi.nlm.nih.gov/32126768/)
+
+[Sample multiplexing for targeted pathway proteomics in aging mice, *PNAS*, 2004](https://pubmed.ncbi.nlm.nih.gov/32332170/)
+
+[Intelligent data acquisition blends targeted and discovery methods, *JPR*, 2014](https://pubmed.ncbi.nlm.nih.gov/24611583/)

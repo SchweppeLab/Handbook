@@ -60,6 +60,46 @@ All research funded by external grants must acknowledge the funding agency and g
 
 Part of maintaining a great working environment in the lab is maintaining safe working habits. For more information on safety in the lab check out these resources:
 
+* Laboratory Safety Manual: https://www.ehs.washington.edu/system/files/resources/uw-biosafety-manual.pdf
 * EHS Trainings: https://www.ehs.washington.edu/training
 * Biosafety Manual: https://www.ehs.washington.edu/system/files/resources/uw-biosafety-manual.pdf
 * Exposure Response: https://www.ehs.washington.edu/system/files/resources/exposure-response-poster.pdf
+
+
+### Personal Protective Equipment (PPE)
+
+In accordance with UW and EHS standards expressed in the [Laboratory Safety Manual (LSM)](https://www.ehs.washington.edu/system/files/resources/uw-biosafety-manual.pdf) and the Biosafety Manual lab members will be required to adhere to EHS guidelines regarding personal attire.
+
+
+***The current guidelines from EHS in the LSM are:***
+
+#### Appropriate Clothing
+The clothes you wear in the laboratory are an important consideration for personal safety and can
+influence the severity of consequences of spills, splashes and burns. These guidelines should be
+followed when working in the laboratory:
+
+1. Shoes should fully cover the feet to protect against spills; no open-toed
+shoes or sandals are permitted, and shoes constructed of mesh (such as
+athletic shoes) are not recommended.
+2. Clothing should fully cover your legs.
+3. Materials you wear in the laboratory can make a difference. Many synthetic
+fabrics may be dissolved by solvents or may melt into your skin, causing
+more extensive burns if they catch on fire. Preferred materials are cotton,
+wool, and resistant polyester. Synthetic materials, such as acrylics, rayon, and
+polyester are not recommended.
+4. Loose, flowing garments and scarves should be avoided; they may easily pick
+up spills or trail through a burner flame.
+
+#### Jewelry
+Loose jewelry such as bracelets, watches and necklaces should be avoided since they may catch on
+equipment. Avoid rings that can damage protective gloves or make removing gloves difficult.
+
+#### Hair
+Tie back long hair so it does not get caught in equipment, come in contact with chemicals or
+interfere with your field of view.
+
+### Project Specific PPE
+
+Each project may require specific or specialized PPE. Before beginning new work, check the lab's SOPs, LSM, BUA, etc. to ensure that you are using the right PPE for your work. Feel free to contact Devin if you need further clarification or guidance.
+
+
