@@ -8,6 +8,8 @@ Below find links to papers that may be of interest to explore new topics or get 
 
 [The abc's (and xyz's) of peptide sequencing, *Nature Reviews Molecular Cell Biology*, 2004](https://www.nature.com/articles/nrm1468)
 
+[The emerging landscape of single-molecule protein sequencing technologies](https://www.nature.com/articles/s41592-021-01143-1.pdf)
+
 ## Multiplex quantitation
 
 [Advances in quantitative high-throughput phosphoproteomics with sample multiplexing, *Proteomics*, 2021](https://doi.org/10.1002/pmic.202000140)
