@@ -26,6 +26,8 @@ Below find links to papers that may be of interest to explore new topics or get 
 
 [Comet: an open-source MS/MS sequence database search tool, *Proteomics*, 2013](https://pubmed.ncbi.nlm.nih.gov/23148064/)
 
+[A Scalable Approach for Protein False Discovery Rate Estimation in Large Proteomic Data Sets, *MCP*, 2015](https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC4563723/)
+
 ## Adaptive instrument control
 
 [Full-Featured, Real-Time Database Searching Platform Enables Fast and Accurate Multiplexed Quantitative Proteomics, *JPR*, 2020](https://pubmed.ncbi.nlm.nih.gov/32126768/)
