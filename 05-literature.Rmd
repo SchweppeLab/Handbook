@@ -4,6 +4,12 @@ Background literature for the lab can be found in the "Getting Started" Google D
 
 Below find links to papers that may be of interest to explore new topics or get caught up on where the lab is now.
 
+## Getting started
+
+When just starting off in the lab, I encourage you to read the papers below and to check out resources such as the NCQBCS Mass Spec Summer School videos:
+https://www.ncqbcs.com/resources/training/summer-school/
+https://www.youtube.com/channel/UC0v4sjdXLMa-OWR7IYeoFoA
+
 ## Proteomics
 
 [The abc's (and xyz's) of peptide sequencing, *Nature Reviews Molecular Cell Biology*, 2004](https://www.nature.com/articles/nrm1468)
