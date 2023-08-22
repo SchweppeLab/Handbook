@@ -18,6 +18,10 @@ https://www.youtube.com/channel/UC0v4sjdXLMa-OWR7IYeoFoA
 
 [Theoretical Considerations for Next-Generation Proteomics, *JPR*, 2021](https://www.nature.com/articles/s41592-021-01143-1.pdf)
 
+[Reversed-Phase Liquid Chromatography of Peptides for Bottom-Up Proteomics: A Tutorial, *JPR*, 2022](https://pubs.acs.org/doi/10.1021/acs.jproteome.2c00407)
+
+[An Introduction to Mass Spectrometry-Based Proteomics, *JPR*, 2023](https://pubs.acs.org/doi/10.1021/acs.jproteome.2c00838)
+
 ## Multiplex quantitation
 
 [Advances in quantitative high-throughput phosphoproteomics with sample multiplexing, *Proteomics*, 2021](https://doi.org/10.1002/pmic.202000140)
