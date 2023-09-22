@@ -16,6 +16,19 @@ The lab is dedicated to providing a harassment-free experience for everyone, reg
 
 All lab members will treat one another with respect and be sensitive to how one’s words and actions impact others. We do not tolerate the perpetuation of stereotypes; we do not tolerate other acts of microaggression ([more information](https://www.washington.edu/teaching/topics/inclusive-teaching/addressing-microaggressions-in-the-classroom/) via the UW CTL). We are a team. We stand up for one another. We learn from each other. We hold each other accountable.
 
+### Conflict Resolution
+
+In a field based on inquisitive questioning and generation of robust and reproducible data, conflicts can arise. These can be around daily business of working in the lab or more generally for how experiments are conducted.
+
+UW has resources for general conflict negotiation: https://hr.uw.edu/leadershipcafe/wp-content/uploads/sites/20/2020/01/Conflict-Resolution-Creating-an-Effective-Atmosphere.pdf
+
+*As noted in the above work:*
+When people are involved in a conflict, there is typically a lot of negative energy. Anger, frustration, and disappointment are just a few of the emotions often felt. By establishing a positive atmosphere, we can begin to turn that negative energy around, and create a powerful problemsolving force. This creates a strong beginning for the conflict resolution process.
+
+In the spirit of teamwork within the lab, I encourage each of you to talk openly with each other where possible. CC'ing me on emails can help to loop me in so that I can help with conflict resolution. An important thing to keep in mind is that each and every person is here to do great science and the goal is to have a workplace in keeping with the code of conduct above. If conflicts arise that results from issues with lab safety please notify me immediately!
+
+We acknowledge that everyone is capable of making mistakes, but our goal is to support each other to achieve the best work and training possible.
+
 ## Scientific Integrity
 
 ### Reproducible Research
