@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 6 Literature | Schweppe Lab Handbook</title>
   <meta name="description" content="This is a lab handbook for the Schweppe Lab within the Department of Genome Sciences at the University of Washington." />
-  <meta name="generator" content="bookdown 0.23 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.35 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 6 Literature | Schweppe Lab Handbook" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="This is a lab handbook for the Schweppe Lab within the Department of Genome Sciences at the University of Washington." />
   <meta name="github-repo" content="rstudio/LabHandbook" />
@@ -24,7 +23,7 @@
 <meta name="author" content="Devin Schweppe" />
 
 
-<meta name="date" content="2021-08-27" />
+<meta name="date" content="2023-09-25" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,8 +32,8 @@
   
 <link rel="prev" href="data.html"/>
 
-<script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -50,12 +49,16 @@
 
 
 
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 
 
-
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -90,6 +93,7 @@
 <li class="chapter" data-level="2.3.1" data-path="intro.html"><a href="intro.html#postdoctoral-fellows"><i class="fa fa-check"></i><b>2.3.1</b> Postdoctoral Fellows</a></li>
 <li class="chapter" data-level="2.3.2" data-path="intro.html"><a href="intro.html#students"><i class="fa fa-check"></i><b>2.3.2</b> Students</a></li>
 <li class="chapter" data-level="2.3.3" data-path="intro.html"><a href="intro.html#research-scientists"><i class="fa fa-check"></i><b>2.3.3</b> Research Scientists</a></li>
+<li class="chapter" data-level="2.3.4" data-path="intro.html"><a href="intro.html#alumni"><i class="fa fa-check"></i><b>2.3.4</b> Alumni</a></li>
 </ul></li>
 <li class="chapter" data-level="2.4" data-path="intro.html"><a href="intro.html#departmental-resources"><i class="fa fa-check"></i><b>2.4</b> Departmental Resources</a></li>
 </ul></li>
@@ -99,6 +103,7 @@
 <li class="chapter" data-level="3.2" data-path="code.html"><a href="code.html#building-an-inclusive-lab-environment"><i class="fa fa-check"></i><b>3.2</b> Building an Inclusive Lab Environment</a>
 <ul>
 <li class="chapter" data-level="3.2.1" data-path="code.html"><a href="code.html#code-of-conduct"><i class="fa fa-check"></i><b>3.2.1</b> Code of Conduct</a></li>
+<li class="chapter" data-level="3.2.2" data-path="code.html"><a href="code.html#conflict-resolution"><i class="fa fa-check"></i><b>3.2.2</b> Conflict Resolution</a></li>
 </ul></li>
 <li class="chapter" data-level="3.3" data-path="code.html"><a href="code.html#scientific-integrity"><i class="fa fa-check"></i><b>3.3</b> Scientific Integrity</a>
 <ul>
@@ -113,8 +118,9 @@
 <li class="chapter" data-level="4.2" data-path="general.html"><a href="general.html#meetings"><i class="fa fa-check"></i><b>4.2</b> Meetings</a>
 <ul>
 <li class="chapter" data-level="4.2.1" data-path="general.html"><a href="general.html#lab-meetings-journal-club"><i class="fa fa-check"></i><b>4.2.1</b> Lab Meetings &amp; Journal Club</a></li>
-<li class="chapter" data-level="4.2.2" data-path="general.html"><a href="general.html#individual-meetings"><i class="fa fa-check"></i><b>4.2.2</b> Individual Meetings</a></li>
-<li class="chapter" data-level="4.2.3" data-path="general.html"><a href="general.html#joint-lab-meetings"><i class="fa fa-check"></i><b>4.2.3</b> Joint Lab Meetings</a></li>
+<li class="chapter" data-level="4.2.2" data-path="general.html"><a href="general.html#scheduling"><i class="fa fa-check"></i><b>4.2.2</b> Scheduling</a></li>
+<li class="chapter" data-level="4.2.3" data-path="general.html"><a href="general.html#individual-meetings"><i class="fa fa-check"></i><b>4.2.3</b> Individual Meetings</a></li>
+<li class="chapter" data-level="4.2.4" data-path="general.html"><a href="general.html#joint-lab-meetings"><i class="fa fa-check"></i><b>4.2.4</b> Joint Lab Meetings</a></li>
 </ul></li>
 <li class="chapter" data-level="4.3" data-path="general.html"><a href="general.html#work-hours"><i class="fa fa-check"></i><b>4.3</b> Work Hours</a></li>
 <li class="chapter" data-level="4.4" data-path="general.html"><a href="general.html#deadlines"><i class="fa fa-check"></i><b>4.4</b> Deadlines</a></li>
@@ -145,10 +151,11 @@
 </ul></li>
 <li class="chapter" data-level="6" data-path="literature.html"><a href="literature.html"><i class="fa fa-check"></i><b>6</b> Literature</a>
 <ul>
-<li class="chapter" data-level="6.1" data-path="literature.html"><a href="literature.html#proteomics"><i class="fa fa-check"></i><b>6.1</b> Proteomics</a></li>
-<li class="chapter" data-level="6.2" data-path="literature.html"><a href="literature.html#multiplex-quantitation"><i class="fa fa-check"></i><b>6.2</b> Multiplex quantitation</a></li>
-<li class="chapter" data-level="6.3" data-path="literature.html"><a href="literature.html#proteome-data-analysis"><i class="fa fa-check"></i><b>6.3</b> Proteome data analysis</a></li>
-<li class="chapter" data-level="6.4" data-path="literature.html"><a href="literature.html#adaptive-instrument-control"><i class="fa fa-check"></i><b>6.4</b> Adaptive instrument control</a></li>
+<li class="chapter" data-level="6.1" data-path="literature.html"><a href="literature.html#getting-started"><i class="fa fa-check"></i><b>6.1</b> Getting started</a></li>
+<li class="chapter" data-level="6.2" data-path="literature.html"><a href="literature.html#proteomics"><i class="fa fa-check"></i><b>6.2</b> Proteomics</a></li>
+<li class="chapter" data-level="6.3" data-path="literature.html"><a href="literature.html#multiplex-quantitation"><i class="fa fa-check"></i><b>6.3</b> Multiplex quantitation</a></li>
+<li class="chapter" data-level="6.4" data-path="literature.html"><a href="literature.html#proteome-data-analysis"><i class="fa fa-check"></i><b>6.4</b> Proteome data analysis</a></li>
+<li class="chapter" data-level="6.5" data-path="literature.html"><a href="literature.html#adaptive-instrument-control"><i class="fa fa-check"></i><b>6.5</b> Adaptive instrument control</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -170,30 +177,38 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="literature" class="section level1" number="6">
-<h1><span class="header-section-number">Chapter 6</span> Literature</h1>
+<div id="literature" class="section level1 hasAnchor" number="6">
+<h1><span class="header-section-number">Chapter 6</span> Literature<a href="literature.html#literature" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>Background literature for the lab can be found in the “Getting Started” Google Drive folder. You will be given access to this upon joining. If you need access, ask Devin about this.</p>
 <p>Below find links to papers that may be of interest to explore new topics or get caught up on where the lab is now.</p>
-<div id="proteomics" class="section level2" number="6.1">
-<h2><span class="header-section-number">6.1</span> Proteomics</h2>
+<div id="getting-started" class="section level2 hasAnchor" number="6.1">
+<h2><span class="header-section-number">6.1</span> Getting started<a href="literature.html#getting-started" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>When just starting off in the lab, I encourage you to read the papers below and to check out resources such as the NCQBCS Mass Spec Summer School videos:
+<a href="https://www.ncqbcs.com/resources/training/summer-school/" class="uri">https://www.ncqbcs.com/resources/training/summer-school/</a>
+<a href="https://www.youtube.com/channel/UC0v4sjdXLMa-OWR7IYeoFoA" class="uri">https://www.youtube.com/channel/UC0v4sjdXLMa-OWR7IYeoFoA</a></p>
+</div>
+<div id="proteomics" class="section level2 hasAnchor" number="6.2">
+<h2><span class="header-section-number">6.2</span> Proteomics<a href="literature.html#proteomics" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p><a href="https://www.nature.com/articles/nrm1468">The abc’s (and xyz’s) of peptide sequencing, <em>Nature Reviews Molecular Cell Biology</em>, 2004</a></p>
 <p><a href="https://www.nature.com/articles/s41592-021-01143-1.pdf">The emerging landscape of single-molecule protein sequencing technologies, <em>Nature Methods</em>, 2021</a></p>
 <p><a href="https://www.nature.com/articles/s41592-021-01143-1.pdf">Theoretical Considerations for Next-Generation Proteomics, <em>JPR</em>, 2021</a></p>
+<p><a href="https://pubs.acs.org/doi/10.1021/acs.jproteome.2c00407">Reversed-Phase Liquid Chromatography of Peptides for Bottom-Up Proteomics: A Tutorial, <em>JPR</em>, 2022</a></p>
+<p><a href="https://pubs.acs.org/doi/10.1021/acs.jproteome.2c00838">An Introduction to Mass Spectrometry-Based Proteomics, <em>JPR</em>, 2023</a></p>
 </div>
-<div id="multiplex-quantitation" class="section level2" number="6.2">
-<h2><span class="header-section-number">6.2</span> Multiplex quantitation</h2>
+<div id="multiplex-quantitation" class="section level2 hasAnchor" number="6.3">
+<h2><span class="header-section-number">6.3</span> Multiplex quantitation<a href="literature.html#multiplex-quantitation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p><a href="https://doi.org/10.1002/pmic.202000140">Advances in quantitative high-throughput phosphoproteomics with sample multiplexing, <em>Proteomics</em>, 2021</a></p>
 <p><a href="https://pubmed.ncbi.nlm.nih.gov/33288958/">Defining the carrier proteome limit for single-cell proteomics, <em>Nature Methods</em>, 2021</a></p>
 <p><a href="https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC6520187/">A Review on Quantitative Multiplexed Proteomics, <em>ChemBioChem</em>, 2019</a></p>
 </div>
-<div id="proteome-data-analysis" class="section level2" number="6.3">
-<h2><span class="header-section-number">6.3</span> Proteome data analysis</h2>
+<div id="proteome-data-analysis" class="section level2 hasAnchor" number="6.4">
+<h2><span class="header-section-number">6.4</span> Proteome data analysis<a href="literature.html#proteome-data-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p><a href="https://www.nature.com/articles/s41592-020-0912-y">Philosopher: a versatile toolkit for shotgun proteomics data analysis, <em>Nature Methods</em>, 2020</a></p>
 <p><a href="https://pubmed.ncbi.nlm.nih.gov/23148064/">Comet: an open-source MS/MS sequence database search tool, <em>Proteomics</em>, 2013</a></p>
 <p><a href="https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC4563723/">A Scalable Approach for Protein False Discovery Rate Estimation in Large Proteomic Data Sets, <em>MCP</em>, 2015</a></p>
 </div>
-<div id="adaptive-instrument-control" class="section level2" number="6.4">
-<h2><span class="header-section-number">6.4</span> Adaptive instrument control</h2>
+<div id="adaptive-instrument-control" class="section level2 hasAnchor" number="6.5">
+<h2><span class="header-section-number">6.5</span> Adaptive instrument control<a href="literature.html#adaptive-instrument-control" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p><a href="https://pubmed.ncbi.nlm.nih.gov/32126768/">Full-Featured, Real-Time Database Searching Platform Enables Fast and Accurate Multiplexed Quantitative Proteomics, <em>JPR</em>, 2020</a></p>
 <p><a href="https://pubmed.ncbi.nlm.nih.gov/32332170/">Sample multiplexing for targeted pathway proteomics in aging mice, <em>PNAS</em>, 2004</a></p>
 <p><a href="https://pubmed.ncbi.nlm.nih.gov/24611583/">Intelligent data acquisition blends targeted and discovery methods, <em>JPR</em>, 2014</a></p>
@@ -210,7 +225,6 @@
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -251,7 +265,7 @@ gitbook.start({
 },
 "download": ["LabHandbook.pdf", "LabHandbook.epub"],
 "search": {
-"engine": "lunr",
+"engine": "fuse",
 "options": null
 },
 "toc": {

@@ -54,3 +54,7 @@ hair
 personal-protective-equipment-ppe
 project-specific-ppe
 students
+alumni
+conflict-resolution
+scheduling
+getting-started

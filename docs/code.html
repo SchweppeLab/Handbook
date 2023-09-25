@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 3 Code of Conduct | Schweppe Lab Handbook</title>
   <meta name="description" content="This is a lab handbook for the Schweppe Lab within the Department of Genome Sciences at the University of Washington." />
-  <meta name="generator" content="bookdown 0.23 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.35 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 3 Code of Conduct | Schweppe Lab Handbook" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="This is a lab handbook for the Schweppe Lab within the Department of Genome Sciences at the University of Washington." />
   <meta name="github-repo" content="rstudio/LabHandbook" />
@@ -24,7 +23,7 @@
 <meta name="author" content="Devin Schweppe" />
 
 
-<meta name="date" content="2021-08-13" />
+<meta name="date" content="2023-09-25" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,8 +32,8 @@
   
 <link rel="prev" href="intro.html"/>
 <link rel="next" href="general.html"/>
-<script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -50,12 +49,16 @@
 
 
 
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 
 
-
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -90,6 +93,7 @@
 <li class="chapter" data-level="2.3.1" data-path="intro.html"><a href="intro.html#postdoctoral-fellows"><i class="fa fa-check"></i><b>2.3.1</b> Postdoctoral Fellows</a></li>
 <li class="chapter" data-level="2.3.2" data-path="intro.html"><a href="intro.html#students"><i class="fa fa-check"></i><b>2.3.2</b> Students</a></li>
 <li class="chapter" data-level="2.3.3" data-path="intro.html"><a href="intro.html#research-scientists"><i class="fa fa-check"></i><b>2.3.3</b> Research Scientists</a></li>
+<li class="chapter" data-level="2.3.4" data-path="intro.html"><a href="intro.html#alumni"><i class="fa fa-check"></i><b>2.3.4</b> Alumni</a></li>
 </ul></li>
 <li class="chapter" data-level="2.4" data-path="intro.html"><a href="intro.html#departmental-resources"><i class="fa fa-check"></i><b>2.4</b> Departmental Resources</a></li>
 </ul></li>
@@ -99,6 +103,7 @@
 <li class="chapter" data-level="3.2" data-path="code.html"><a href="code.html#building-an-inclusive-lab-environment"><i class="fa fa-check"></i><b>3.2</b> Building an Inclusive Lab Environment</a>
 <ul>
 <li class="chapter" data-level="3.2.1" data-path="code.html"><a href="code.html#code-of-conduct"><i class="fa fa-check"></i><b>3.2.1</b> Code of Conduct</a></li>
+<li class="chapter" data-level="3.2.2" data-path="code.html"><a href="code.html#conflict-resolution"><i class="fa fa-check"></i><b>3.2.2</b> Conflict Resolution</a></li>
 </ul></li>
 <li class="chapter" data-level="3.3" data-path="code.html"><a href="code.html#scientific-integrity"><i class="fa fa-check"></i><b>3.3</b> Scientific Integrity</a>
 <ul>
@@ -113,8 +118,9 @@
 <li class="chapter" data-level="4.2" data-path="general.html"><a href="general.html#meetings"><i class="fa fa-check"></i><b>4.2</b> Meetings</a>
 <ul>
 <li class="chapter" data-level="4.2.1" data-path="general.html"><a href="general.html#lab-meetings-journal-club"><i class="fa fa-check"></i><b>4.2.1</b> Lab Meetings &amp; Journal Club</a></li>
-<li class="chapter" data-level="4.2.2" data-path="general.html"><a href="general.html#individual-meetings"><i class="fa fa-check"></i><b>4.2.2</b> Individual Meetings</a></li>
-<li class="chapter" data-level="4.2.3" data-path="general.html"><a href="general.html#joint-lab-meetings"><i class="fa fa-check"></i><b>4.2.3</b> Joint Lab Meetings</a></li>
+<li class="chapter" data-level="4.2.2" data-path="general.html"><a href="general.html#scheduling"><i class="fa fa-check"></i><b>4.2.2</b> Scheduling</a></li>
+<li class="chapter" data-level="4.2.3" data-path="general.html"><a href="general.html#individual-meetings"><i class="fa fa-check"></i><b>4.2.3</b> Individual Meetings</a></li>
+<li class="chapter" data-level="4.2.4" data-path="general.html"><a href="general.html#joint-lab-meetings"><i class="fa fa-check"></i><b>4.2.4</b> Joint Lab Meetings</a></li>
 </ul></li>
 <li class="chapter" data-level="4.3" data-path="general.html"><a href="general.html#work-hours"><i class="fa fa-check"></i><b>4.3</b> Work Hours</a></li>
 <li class="chapter" data-level="4.4" data-path="general.html"><a href="general.html#deadlines"><i class="fa fa-check"></i><b>4.4</b> Deadlines</a></li>
@@ -145,10 +151,11 @@
 </ul></li>
 <li class="chapter" data-level="6" data-path="literature.html"><a href="literature.html"><i class="fa fa-check"></i><b>6</b> Literature</a>
 <ul>
-<li class="chapter" data-level="6.1" data-path="literature.html"><a href="literature.html#proteomics"><i class="fa fa-check"></i><b>6.1</b> Proteomics</a></li>
-<li class="chapter" data-level="6.2" data-path="literature.html"><a href="literature.html#multiplex-quantitation"><i class="fa fa-check"></i><b>6.2</b> Multiplex quantitation</a></li>
-<li class="chapter" data-level="6.3" data-path="literature.html"><a href="literature.html#proteome-data-analysis"><i class="fa fa-check"></i><b>6.3</b> Proteome data analysis</a></li>
-<li class="chapter" data-level="6.4" data-path="literature.html"><a href="literature.html#adaptive-instrument-control"><i class="fa fa-check"></i><b>6.4</b> Adaptive instrument control</a></li>
+<li class="chapter" data-level="6.1" data-path="literature.html"><a href="literature.html#getting-started"><i class="fa fa-check"></i><b>6.1</b> Getting started</a></li>
+<li class="chapter" data-level="6.2" data-path="literature.html"><a href="literature.html#proteomics"><i class="fa fa-check"></i><b>6.2</b> Proteomics</a></li>
+<li class="chapter" data-level="6.3" data-path="literature.html"><a href="literature.html#multiplex-quantitation"><i class="fa fa-check"></i><b>6.3</b> Multiplex quantitation</a></li>
+<li class="chapter" data-level="6.4" data-path="literature.html"><a href="literature.html#proteome-data-analysis"><i class="fa fa-check"></i><b>6.4</b> Proteome data analysis</a></li>
+<li class="chapter" data-level="6.5" data-path="literature.html"><a href="literature.html#adaptive-instrument-control"><i class="fa fa-check"></i><b>6.5</b> Adaptive instrument control</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -170,36 +177,45 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="code" class="section level1" number="3">
-<h1><span class="header-section-number">Chapter 3</span> Code of Conduct</h1>
-<div id="general" class="section level2" number="3.1">
-<h2><span class="header-section-number">3.1</span> General</h2>
+<div id="code" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">Chapter 3</span> Code of Conduct<a href="code.html#code" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="general" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> General<a href="code.html#general" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>In addition to the general expectations laid out above, I am dedicated to making our lab a safe, inclusive, and welcoming environment for all. Below you can find a specific code of conduct for behavior in the lab, as well as a broader discussion of what constitutes an inclusive environment. For more information on professional conduct see the <a href="https://www.gs.washington.edu/office/facultyresources/policies/conduct.pdf">UW SoM Policy on Professional Conduct</a>.</p>
 <p>I encourage you also to visit the departmental site dedicated to <a href="https://www.gs.washington.edu/about/dei/index.htm">diversity, equity, and inclusion (DEI)</a> as well as the UW HR site for DEI information: <a href="https://hr.uw.edu/diversity/" class="uri">https://hr.uw.edu/diversity/</a></p>
 </div>
-<div id="building-an-inclusive-lab-environment" class="section level2" number="3.2">
-<h2><span class="header-section-number">3.2</span> Building an Inclusive Lab Environment</h2>
+<div id="building-an-inclusive-lab-environment" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Building an Inclusive Lab Environment<a href="code.html#building-an-inclusive-lab-environment" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>All members of the lab, along with visitors, are expected to agree to the following code of conduct. More information on UW anti-harassment resources are available through the <a href="https://www.gs.washington.edu/academics/gradprogram/handbook/general/antiharassment.htm">GS website</a>.</p>
-<div id="code-of-conduct" class="section level3" number="3.2.1">
-<h3><span class="header-section-number">3.2.1</span> Code of Conduct</h3>
+<div id="code-of-conduct" class="section level3 hasAnchor" number="3.2.1">
+<h3><span class="header-section-number">3.2.1</span> Code of Conduct<a href="code.html#code-of-conduct" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The lab is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, socioeconomic status, physical appearance, body size, race, national origin, or religion (or lack thereof). We do not tolerate harassment of lab members in any form.</p>
 <p>All lab members will treat one another with respect and be sensitive to how one’s words and actions impact others. We do not tolerate the perpetuation of stereotypes; we do not tolerate other acts of microaggression (<a href="https://www.washington.edu/teaching/topics/inclusive-teaching/addressing-microaggressions-in-the-classroom/">more information</a> via the UW CTL). We are a team. We stand up for one another. We learn from each other. We hold each other accountable.</p>
 </div>
+<div id="conflict-resolution" class="section level3 hasAnchor" number="3.2.2">
+<h3><span class="header-section-number">3.2.2</span> Conflict Resolution<a href="code.html#conflict-resolution" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>In a field based on inquisitive questioning and generation of robust and reproducible data, conflicts can arise. These can be around daily business of working in the lab or more generally for how experiments are conducted.</p>
+<p>UW has resources for general conflict negotiation: <a href="https://hr.uw.edu/leadershipcafe/wp-content/uploads/sites/20/2020/01/Conflict-Resolution-Creating-an-Effective-Atmosphere.pdf" class="uri">https://hr.uw.edu/leadershipcafe/wp-content/uploads/sites/20/2020/01/Conflict-Resolution-Creating-an-Effective-Atmosphere.pdf</a></p>
+<p><em>As noted in the above work:</em>
+When people are involved in a conflict, there is typically a lot of negative energy. Anger, frustration, and disappointment are just a few of the emotions often felt. By establishing a positive atmosphere, we can begin to turn that negative energy around, and create a powerful problem solving force. This creates a strong beginning for the conflict resolution process.</p>
+<p>In the spirit of teamwork within the lab, I encourage each of you to talk openly with each other where possible. CC’ing me on emails can help to loop me in so that I can help with conflict resolution. An important thing to keep in mind is that each and every person is here to do great science and the goal is to have a workplace in keeping with the code of conduct above. If conflicts arise that results from issues with lab safety please notify me immediately!</p>
+<p>We acknowledge that everyone is capable of making mistakes, but our goal is to support each other to achieve the best work and training possible.</p>
 </div>
-<div id="scientific-integrity" class="section level2" number="3.3">
-<h2><span class="header-section-number">3.3</span> Scientific Integrity</h2>
-<div id="reproducible-research" class="section level3" number="3.3.1">
-<h3><span class="header-section-number">3.3.1</span> Reproducible Research</h3>
+</div>
+<div id="scientific-integrity" class="section level2 hasAnchor" number="3.3">
+<h2><span class="header-section-number">3.3</span> Scientific Integrity<a href="code.html#scientific-integrity" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="reproducible-research" class="section level3 hasAnchor" number="3.3.1">
+<h3><span class="header-section-number">3.3.1</span> Reproducible Research<a href="code.html#reproducible-research" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>I expect that all of our research will be, at minimum, reproducible (when possible, we will also test for replicability). There are two main things you can do to improve the reproducibility of your research: 1) extensive note-taking (i.e., as much as you can manage) and 2) programming workflows with version control.</p>
 <p>Programming workflows help with reproducibility because they take some of the human element out, and in an ideal scenario, you are left with a script or series of scripts that takes data from raw form to final product. Programming alone is not enough, though, because people can easily forget which script changes they made and when. Therefore, all projects that involve programming of any kind (so basically, all projects) must use some form of version control. I strongly recommend git in combination with GitHub (see below), unless you have a pre-existing workflow.</p>
 </div>
-<div id="authorship" class="section level3" number="3.3.2">
-<h3><span class="header-section-number">3.3.2</span> Authorship</h3>
+<div id="authorship" class="section level3 hasAnchor" number="3.3.2">
+<h3><span class="header-section-number">3.3.2</span> Authorship<a href="code.html#authorship" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Authorship will be discussed prior to the beginning of a new project, so that expectations are clearly defined. However, changes to authorship may occur over the course of a project if a new person becomes involved or if someone is not fulfilling their planned role. In general, graduate students and postdocs will be a first author on publications on which they are the primary lead, and I will be a last/corresponding author.</p>
 </div>
-<div id="old-projects" class="section level3" number="3.3.3">
-<h3><span class="header-section-number">3.3.3</span> Old Projects</h3>
-<p>For projects that required significant lab resources (e.g. large scale proteomics experiments): Project “ownership” expires 2 years after data collection has ended or whenever the original primary lead relinquishes their rights to the study, whichever comes first. At that point, I reserve the right to re-assign the project (or not) as needed to expedite publication. This policy is intended to avoid situations in which a dataset languishes for a long period of time, while still giving publication priority to the original primary lead.</p>
+<div id="old-projects" class="section level3 hasAnchor" number="3.3.3">
+<h3><span class="header-section-number">3.3.3</span> Old Projects<a href="code.html#old-projects" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>For projects that are grant funded or required significant lab resources (e.g. large scale proteomics experiments): While you are a member of the lab, project “ownership” expires 1 year after data collection has ended or whenever the original primary lead relinquishes their rights to the study, whichever comes first. At that point, I reserve the right to re-assign the project (or not) as needed to expedite publication. Barring specific discussion between you and I, I also reserve the right to re-assign projects and lab resources when you are on extended leave or leave the lab altogether to ensure that projects and publications can be completed efficiently. This policy is intended to avoid situations in which a dataset languishes for a long period of time, while still giving publication priority to the original primary lead.</p>
 
 </div>
 </div>
@@ -214,7 +230,6 @@
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -255,7 +270,7 @@ gitbook.start({
 },
 "download": ["LabHandbook.pdf", "LabHandbook.epub"],
 "search": {
-"engine": "lunr",
+"engine": "fuse",
 "options": null
 },
 "toc": {

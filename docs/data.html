@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 5 Data and Instrumentation | Schweppe Lab Handbook</title>
   <meta name="description" content="This is a lab handbook for the Schweppe Lab within the Department of Genome Sciences at the University of Washington." />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.35 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 5 Data and Instrumentation | Schweppe Lab Handbook" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="This is a lab handbook for the Schweppe Lab within the Department of Genome Sciences at the University of Washington." />
   <meta name="github-repo" content="rstudio/LabHandbook" />
@@ -24,7 +23,7 @@
 <meta name="author" content="Devin Schweppe" />
 
 
-<meta name="date" content="2020-08-07" />
+<meta name="date" content="2023-09-25" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,7 +32,8 @@
   
 <link rel="prev" href="general.html"/>
 <link rel="next" href="literature.html"/>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -49,10 +49,16 @@
 
 
 
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -71,8 +77,10 @@
 
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Welcome!</a></li>
-<li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Introduction</a><ul>
-<li class="chapter" data-level="2.1" data-path="intro.html"><a href="intro.html#lab-member-expectations-and-responsibilities"><i class="fa fa-check"></i><b>2.1</b> Lab Member Expectations and Responsibilities</a><ul>
+<li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="intro.html"><a href="intro.html#lab-member-expectations-and-responsibilities"><i class="fa fa-check"></i><b>2.1</b> Lab Member Expectations and Responsibilities</a>
+<ul>
 <li class="chapter" data-level="2.1.1" data-path="intro.html"><a href="intro.html#for-everyone"><i class="fa fa-check"></i><b>2.1.1</b> For Everyone</a></li>
 <li class="chapter" data-level="2.1.2" data-path="intro.html"><a href="intro.html#for-the-pi"><i class="fa fa-check"></i><b>2.1.2</b> For the PI</a></li>
 <li class="chapter" data-level="2.1.3" data-path="intro.html"><a href="intro.html#for-post-docs"><i class="fa fa-check"></i><b>2.1.3</b> For Post-docs</a></li>
@@ -80,30 +88,39 @@
 <li class="chapter" data-level="2.1.5" data-path="intro.html"><a href="intro.html#for-lab-managers-research-scientists"><i class="fa fa-check"></i><b>2.1.5</b> For Lab Managers &amp; Research Scientists</a></li>
 </ul></li>
 <li class="chapter" data-level="2.2" data-path="intro.html"><a href="intro.html#lab-architecture"><i class="fa fa-check"></i><b>2.2</b> Lab Architecture</a></li>
-<li class="chapter" data-level="2.3" data-path="intro.html"><a href="intro.html#current-lab-members"><i class="fa fa-check"></i><b>2.3</b> Current Lab Members</a><ul>
+<li class="chapter" data-level="2.3" data-path="intro.html"><a href="intro.html#current-lab-members"><i class="fa fa-check"></i><b>2.3</b> Current Lab Members</a>
+<ul>
 <li class="chapter" data-level="2.3.1" data-path="intro.html"><a href="intro.html#postdoctoral-fellows"><i class="fa fa-check"></i><b>2.3.1</b> Postdoctoral Fellows</a></li>
-<li class="chapter" data-level="2.3.2" data-path="intro.html"><a href="intro.html#graduate-students"><i class="fa fa-check"></i><b>2.3.2</b> Graduate Students</a></li>
+<li class="chapter" data-level="2.3.2" data-path="intro.html"><a href="intro.html#students"><i class="fa fa-check"></i><b>2.3.2</b> Students</a></li>
 <li class="chapter" data-level="2.3.3" data-path="intro.html"><a href="intro.html#research-scientists"><i class="fa fa-check"></i><b>2.3.3</b> Research Scientists</a></li>
+<li class="chapter" data-level="2.3.4" data-path="intro.html"><a href="intro.html#alumni"><i class="fa fa-check"></i><b>2.3.4</b> Alumni</a></li>
 </ul></li>
 <li class="chapter" data-level="2.4" data-path="intro.html"><a href="intro.html#departmental-resources"><i class="fa fa-check"></i><b>2.4</b> Departmental Resources</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="code.html"><a href="code.html"><i class="fa fa-check"></i><b>3</b> Code of Conduct</a><ul>
+<li class="chapter" data-level="3" data-path="code.html"><a href="code.html"><i class="fa fa-check"></i><b>3</b> Code of Conduct</a>
+<ul>
 <li class="chapter" data-level="3.1" data-path="code.html"><a href="code.html#general"><i class="fa fa-check"></i><b>3.1</b> General</a></li>
-<li class="chapter" data-level="3.2" data-path="code.html"><a href="code.html#building-an-inclusive-lab-environment"><i class="fa fa-check"></i><b>3.2</b> Building an Inclusive Lab Environment</a><ul>
+<li class="chapter" data-level="3.2" data-path="code.html"><a href="code.html#building-an-inclusive-lab-environment"><i class="fa fa-check"></i><b>3.2</b> Building an Inclusive Lab Environment</a>
+<ul>
 <li class="chapter" data-level="3.2.1" data-path="code.html"><a href="code.html#code-of-conduct"><i class="fa fa-check"></i><b>3.2.1</b> Code of Conduct</a></li>
+<li class="chapter" data-level="3.2.2" data-path="code.html"><a href="code.html#conflict-resolution"><i class="fa fa-check"></i><b>3.2.2</b> Conflict Resolution</a></li>
 </ul></li>
-<li class="chapter" data-level="3.3" data-path="code.html"><a href="code.html#scientific-integrity"><i class="fa fa-check"></i><b>3.3</b> Scientific Integrity</a><ul>
+<li class="chapter" data-level="3.3" data-path="code.html"><a href="code.html#scientific-integrity"><i class="fa fa-check"></i><b>3.3</b> Scientific Integrity</a>
+<ul>
 <li class="chapter" data-level="3.3.1" data-path="code.html"><a href="code.html#reproducible-research"><i class="fa fa-check"></i><b>3.3.1</b> Reproducible Research</a></li>
 <li class="chapter" data-level="3.3.2" data-path="code.html"><a href="code.html#authorship"><i class="fa fa-check"></i><b>3.3.2</b> Authorship</a></li>
 <li class="chapter" data-level="3.3.3" data-path="code.html"><a href="code.html#old-projects"><i class="fa fa-check"></i><b>3.3.3</b> Old Projects</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="code.html"><a href="code.html#general"><i class="fa fa-check"></i><b>4</b> General Policies</a><ul>
+<li class="chapter" data-level="4" data-path="code.html"><a href="code.html#general"><i class="fa fa-check"></i><b>4</b> General Policies</a>
+<ul>
 <li class="chapter" data-level="4.1" data-path="general.html"><a href="general.html"><i class="fa fa-check"></i><b>4.1</b> PI Availability</a></li>
-<li class="chapter" data-level="4.2" data-path="general.html"><a href="general.html#meetings"><i class="fa fa-check"></i><b>4.2</b> Meetings</a><ul>
+<li class="chapter" data-level="4.2" data-path="general.html"><a href="general.html#meetings"><i class="fa fa-check"></i><b>4.2</b> Meetings</a>
+<ul>
 <li class="chapter" data-level="4.2.1" data-path="general.html"><a href="general.html#lab-meetings-journal-club"><i class="fa fa-check"></i><b>4.2.1</b> Lab Meetings &amp; Journal Club</a></li>
-<li class="chapter" data-level="4.2.2" data-path="general.html"><a href="general.html#individual-meetings"><i class="fa fa-check"></i><b>4.2.2</b> Individual Meetings</a></li>
-<li class="chapter" data-level="4.2.3" data-path="general.html"><a href="general.html#joint-lab-meetings"><i class="fa fa-check"></i><b>4.2.3</b> Joint Lab Meetings</a></li>
+<li class="chapter" data-level="4.2.2" data-path="general.html"><a href="general.html#scheduling"><i class="fa fa-check"></i><b>4.2.2</b> Scheduling</a></li>
+<li class="chapter" data-level="4.2.3" data-path="general.html"><a href="general.html#individual-meetings"><i class="fa fa-check"></i><b>4.2.3</b> Individual Meetings</a></li>
+<li class="chapter" data-level="4.2.4" data-path="general.html"><a href="general.html#joint-lab-meetings"><i class="fa fa-check"></i><b>4.2.4</b> Joint Lab Meetings</a></li>
 </ul></li>
 <li class="chapter" data-level="4.3" data-path="general.html"><a href="general.html#work-hours"><i class="fa fa-check"></i><b>4.3</b> Work Hours</a></li>
 <li class="chapter" data-level="4.4" data-path="general.html"><a href="general.html#deadlines"><i class="fa fa-check"></i><b>4.4</b> Deadlines</a></li>
@@ -111,25 +128,34 @@
 <li class="chapter" data-level="4.6" data-path="general.html"><a href="general.html#lab-travel"><i class="fa fa-check"></i><b>4.6</b> Lab Travel</a></li>
 <li class="chapter" data-level="4.7" data-path="general.html"><a href="general.html#letters-of-referencerecommendation"><i class="fa fa-check"></i><b>4.7</b> Letters of Reference/Recommendation</a></li>
 <li class="chapter" data-level="4.8" data-path="general.html"><a href="general.html#funding"><i class="fa fa-check"></i><b>4.8</b> Funding</a></li>
-<li class="chapter" data-level="4.9" data-path="general.html"><a href="general.html#safety"><i class="fa fa-check"></i><b>4.9</b> Safety</a></li>
+<li class="chapter" data-level="4.9" data-path="general.html"><a href="general.html#safety"><i class="fa fa-check"></i><b>4.9</b> Safety</a>
+<ul>
+<li class="chapter" data-level="4.9.1" data-path="general.html"><a href="general.html#personal-protective-equipment-ppe"><i class="fa fa-check"></i><b>4.9.1</b> Personal Protective Equipment (PPE)</a></li>
+<li class="chapter" data-level="4.9.2" data-path="general.html"><a href="general.html#project-specific-ppe"><i class="fa fa-check"></i><b>4.9.2</b> Project Specific PPE</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>5</b> Data and Instrumentation</a><ul>
-<li class="chapter" data-level="5.1" data-path="data.html"><a href="data.html#instrumentation"><i class="fa fa-check"></i><b>5.1</b> Instrumentation</a><ul>
+</ul></li>
+<li class="chapter" data-level="5" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>5</b> Data and Instrumentation</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="data.html"><a href="data.html#instrumentation"><i class="fa fa-check"></i><b>5.1</b> Instrumentation</a>
+<ul>
 <li class="chapter" data-level="5.1.1" data-path="data.html"><a href="data.html#mass-spectrometers"><i class="fa fa-check"></i><b>5.1.1</b> Mass spectrometers</a></li>
 <li class="chapter" data-level="5.1.2" data-path="data.html"><a href="data.html#hplcs"><i class="fa fa-check"></i><b>5.1.2</b> HPLCs</a></li>
 </ul></li>
-<li class="chapter" data-level="5.2" data-path="data.html"><a href="data.html#data-data-data"><i class="fa fa-check"></i><b>5.2</b> Data, Data, Data</a><ul>
+<li class="chapter" data-level="5.2" data-path="data.html"><a href="data.html#data-data-data"><i class="fa fa-check"></i><b>5.2</b> Data, Data, Data</a>
+<ul>
 <li class="chapter" data-level="5.2.1" data-path="data.html"><a href="data.html#scripts-and-code"><i class="fa fa-check"></i><b>5.2.1</b> Scripts and Code</a></li>
 <li class="chapter" data-level="5.2.2" data-path="data.html"><a href="data.html#raw-data"><i class="fa fa-check"></i><b>5.2.2</b> Raw Data</a></li>
 <li class="chapter" data-level="5.2.3" data-path="data.html"><a href="data.html#data-sharing"><i class="fa fa-check"></i><b>5.2.3</b> Data sharing</a></li>
 <li class="chapter" data-level="5.2.4" data-path="data.html"><a href="data.html#lab-storage"><i class="fa fa-check"></i><b>5.2.4</b> Lab Storage</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="literature.html"><a href="literature.html"><i class="fa fa-check"></i><b>6</b> Literature</a><ul>
-<li class="chapter" data-level="6.1" data-path="literature.html"><a href="literature.html#proteomics"><i class="fa fa-check"></i><b>6.1</b> Proteomics</a></li>
-<li class="chapter" data-level="6.2" data-path="literature.html"><a href="literature.html#multiplex-quantitation"><i class="fa fa-check"></i><b>6.2</b> Multiplex quantitation</a></li>
-<li class="chapter" data-level="6.3" data-path="literature.html"><a href="literature.html#proteome-data-analysis"><i class="fa fa-check"></i><b>6.3</b> Proteome data analysis</a></li>
-<li class="chapter" data-level="6.4" data-path="literature.html"><a href="literature.html#adaptive-instrument-control"><i class="fa fa-check"></i><b>6.4</b> Adaptive instrument control</a></li>
+<li class="chapter" data-level="6" data-path="literature.html"><a href="literature.html"><i class="fa fa-check"></i><b>6</b> Literature</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="literature.html"><a href="literature.html#getting-started"><i class="fa fa-check"></i><b>6.1</b> Getting started</a></li>
+<li class="chapter" data-level="6.2" data-path="literature.html"><a href="literature.html#proteomics"><i class="fa fa-check"></i><b>6.2</b> Proteomics</a></li>
+<li class="chapter" data-level="6.3" data-path="literature.html"><a href="literature.html#multiplex-quantitation"><i class="fa fa-check"></i><b>6.3</b> Multiplex quantitation</a></li>
+<li class="chapter" data-level="6.4" data-path="literature.html"><a href="literature.html#proteome-data-analysis"><i class="fa fa-check"></i><b>6.4</b> Proteome data analysis</a></li>
+<li class="chapter" data-level="6.5" data-path="literature.html"><a href="literature.html#adaptive-instrument-control"><i class="fa fa-check"></i><b>6.5</b> Adaptive instrument control</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -151,39 +177,39 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="data" class="section level1">
-<h1><span class="header-section-number">Chapter 5</span> Data and Instrumentation</h1>
-<div id="instrumentation" class="section level2">
-<h2><span class="header-section-number">5.1</span> Instrumentation</h2>
+<div id="data" class="section level1 hasAnchor" number="5">
+<h1><span class="header-section-number">Chapter 5</span> Data and Instrumentation<a href="data.html#data" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="instrumentation" class="section level2 hasAnchor" number="5.1">
+<h2><span class="header-section-number">5.1</span> Instrumentation<a href="data.html#instrumentation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>We work with highly sensitive, but also very expensive instrumentation. Below find guidelines for the use of instrumentation in the lab.</p>
 <p>Instrumentation and equipment need to be maintained so that every member of the lab has access to complete their research projects. When you have finished using an instrument, you should leave it in a condition so that the next person who needs to use it does not need to fix/clean it. This essential to keeping the lab functioning efficiently.</p>
-<div id="mass-spectrometers" class="section level3">
-<h3><span class="header-section-number">5.1.1</span> Mass spectrometers</h3>
+<div id="mass-spectrometers" class="section level3 hasAnchor" number="5.1.1">
+<h3><span class="header-section-number">5.1.1</span> Mass spectrometers<a href="data.html#mass-spectrometers" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>By far the best part of our armamentarium to understand whole proteome dynamics, the mass spectrometers (MSs) are fantastic resources within the lab. Over the course of your work in the lab there will be opportunities to learn more about using, running and fixing the the MSs. I highly encourage you to learn as much as you can as well through the literature to understand what the instruments are capable of and not capable of.</p>
 <p>If you run into issues in the operation of the instruments (including but not limited to hardware malfunctions or failures and software faults or errors), <strong>alert me immediately</strong>! These problems cannot be ignored and are more likely than not to cause considerable harm to the instrument if left unattended. Unaddressed issues are also likely to result in expensive instrument repairs (tens of thousands of dollars).</p>
 <p>If you notice significant degradation of instrument performance during or after your runs, alert both Devin and the next user so that samples are not lost!</p>
 </div>
-<div id="hplcs" class="section level3">
-<h3><span class="header-section-number">5.1.2</span> HPLCs</h3>
+<div id="hplcs" class="section level3 hasAnchor" number="5.1.2">
+<h3><span class="header-section-number">5.1.2</span> HPLCs<a href="data.html#hplcs" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Separation or enrichment of peptides, proteins, and small molecules using high performance liquid chromatography (HPLC) is an integral part of our workflows. Normal HPLCs are often quite robust, while nano-HPLCs can be prone to failure due to their high operational pressures. As with the mass spectrometers any issues with the hardware or software need to be addressed immediately.</p>
 </div>
 </div>
-<div id="data-data-data" class="section level2">
-<h2><span class="header-section-number">5.2</span> Data, Data, Data</h2>
-<div id="scripts-and-code" class="section level3">
-<h3><span class="header-section-number">5.2.1</span> Scripts and Code</h3>
+<div id="data-data-data" class="section level2 hasAnchor" number="5.2">
+<h2><span class="header-section-number">5.2</span> Data, Data, Data<a href="data.html#data-data-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="scripts-and-code" class="section level3 hasAnchor" number="5.2.1">
+<h3><span class="header-section-number">5.2.1</span> Scripts and Code<a href="data.html#scripts-and-code" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>All scripts and code used for lab projects (including programs, websites, tools, data analysis work) should be deposited or version controlled in lab storage/servers. This includes depositing repositories in the lab GitHub.</p>
 </div>
-<div id="raw-data" class="section level3">
-<h3><span class="header-section-number">5.2.2</span> Raw Data</h3>
+<div id="raw-data" class="section level3 hasAnchor" number="5.2.2">
+<h3><span class="header-section-number">5.2.2</span> Raw Data<a href="data.html#raw-data" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Raw data will be backed up in at least two places to ensure that should it need to be accessed it can be. This is especially important for published data as someone may ask for these files years later. Unpublished data should be similarly managed to ensure that we do not need to revisit the same basic work again. If you are unsure or where to store your data contact Devin!</p>
 </div>
-<div id="data-sharing" class="section level3">
-<h3><span class="header-section-number">5.2.3</span> Data sharing</h3>
+<div id="data-sharing" class="section level3 hasAnchor" number="5.2.3">
+<h3><span class="header-section-number">5.2.3</span> Data sharing<a href="data.html#data-sharing" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Data for publication will be shared through PRIDE/ProteomeXchange or a similar repository. Sharing these data with the general community is essential for future development of MS methods.</p>
 </div>
-<div id="lab-storage" class="section level3">
-<h3><span class="header-section-number">5.2.4</span> Lab Storage</h3>
+<div id="lab-storage" class="section level3 hasAnchor" number="5.2.4">
+<h3><span class="header-section-number">5.2.4</span> Lab Storage<a href="data.html#lab-storage" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Data can be stored in the following places:</p>
 <ul>
 <li><strong>Lab server</strong>
@@ -217,7 +243,6 @@
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -236,6 +261,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
@@ -256,6 +282,10 @@ gitbook.start({
 "text": null
 },
 "download": ["LabHandbook.pdf", "LabHandbook.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 }
