@@ -8,11 +8,30 @@ Instrumentation and equipment need to be maintained so that every member of the 
 
 ### Mass spectrometers
 
+Mass specs are a precious resource and should be treated as such. We are lucky to have them and get to use them as we do!
+
 By far the best part of our armamentarium to understand whole proteome dynamics, the mass spectrometers (MSs) are fantastic resources within the lab. Over the course of your work in the lab there will be opportunities to learn more about using, running and fixing the the MSs. I highly encourage you to learn as much as you can as well through the literature to understand what the instruments are capable of and not capable of.
 
 If you run into issues in the operation of the instruments (including but not limited to hardware malfunctions or failures and software faults or errors), **alert me immediately**! These problems cannot be ignored and are more likely than not to cause considerable harm to the instrument if left unattended. Unaddressed issues are also likely to result in expensive instrument repairs (tens of thousands of dollars).
 
 If you notice significant degradation of instrument performance during or after your runs, alert both Devin and the next user so that samples are not lost!
+
+#### Scheduling time on the mass specs
+We will discuss upcoming mass spec usage at lab meetings weekly. If you plan to have samples please come to the meeting knowning:
+
+1. The number of samples
+2. The method you will need to use and the gradient time.
+3. Importance of these samples. Do you need data in two days for a grant? 2 months for paper revisions?
+
+#### Maintenance
+You are responsible for making sure that the insturment is good working order before and after your runs. This includes:
+
+1. Running standards (e.g., hypro) before your run to make sure the instrument is functioning well.
+2. Ensuring that a recent MS calibration has been performed.
+3. Ensuring that the wash solution (TFE), syringe buffer (Buffer A), and gradient buffers have adequate liquid in them.
+4. Make sure that the instrument looks and sounds in working order.
+
+If you notice something out of the ordinary or have an issue...**ASK!** Better to ask and let us address something then to have a small issue become a large issue.
 
 ### HPLCs
 
