@@ -99,19 +99,21 @@ Katarina Vlajic
 
 Conor Herlihy
 
-### Students
+### Graduate Students
 
-Chris McGann - 2021 - *GS Graduate Student*
+Sahar Attar - *Genome Sciences Graduate Student*
 
-Sahar Attar - 2023 - *GS Graduate Student*
+Kyle Brandt - *Genome Sciences Graduate Student*
 
-Catherine Sniezek - 2024 - *GS Graduate Student*
+Catherine Sniezek - *Genome Sciences Graduate Student*
 
-Jacob Cogan - *UW Undergraduate Researcher*
+Ben Shapiro - *MSTP Graduate Student*
 
 ### Research Scientists
 
-Valerie Lynch
+Mike Hoopmann
+
+Veronika Glukhova
 
 ## Departmental Resources
 The Department of Genome Sciences has many resources to aid your research and career, including:
@@ -122,5 +124,4 @@ The Department of Genome Sciences has many resources to aid your research and ca
 * GS Seminars: https://www.gs.washington.edu/news/seminar.htm
 * Research Reports: https://www.gs.washington.edu/news/reports.htm
 * Journal Club: https://www.gs.washington.edu/news/journal.htm
-
 

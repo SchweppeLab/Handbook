@@ -33,6 +33,14 @@ One of the benefits of a career in academic research is that it is typically mor
 
 Lab staff members are expected to keep regular hours (e.g., somewhere in the ballpark of 9-5). Graduate students and postdocs have more flexibility. However, in order to encourage lab interaction, I expect that all lab members will be in the lab (or available on Slack, when working remotely), at minimum, most weekdays between 11am and 4pm or so. If you’re going to be taking off from work on a normal workday (i.e., taking vacation or a personal or sick day), please let Devin know.
 
+### Work from Home (WFH) Expectations
+
+I support reasonable flexibility for working from home when it helps you make progress on a specific project goal. If you are planning to work from home, please let me know in advance and include a brief summary of what you plan to accomplish that day.
+
+If you are actively collaborating on ongoing experiments or analyses, please also update relevant lab members so that urgent needs are covered while you are remote. Keep in mind that many roles in the lab include in-person responsibilities (e.g., lab management, bench work, or participant-facing tasks), so WFH is not always appropriate for every day or every project stage.
+
+The goal is to use WFH thoughtfully and professionally, balancing flexibility with team needs. If you are unsure whether WFH is appropriate for a given day, check in with me and we can decide together.
+
 ## Deadlines
 
 If you need something from me by a particular deadline, please inform me as soon as you are aware of the deadline so that I can allocate my time as efficiently as possible. I will expect at least one week's notice, but I greatly prefer two weeks' notice. I will require two weeks' notice for letters of reference. If you do not adhere to these guidelines, I may not be able to meet your deadline. Please note that this applies to reading/ commenting on abstracts, papers, and manuscripts, in addition to filling out paperwork, etc. Reminder messages are appreciated as well!
@@ -47,9 +55,11 @@ When making figures, it is helpful if you follow a few color-coding conventions,
 
 ## Lab Travel
 
-In general, the lab will provide up to ***$2,000 per person per year*** for full-time lab members to present their work at major conferences (e.g., ASMS, Keystone, HuPO). This will be contingent on lab members submitting an abstract for a poster or oral presentation. In general, the work should be "new" and it should be appropriate for the conference. This will usually result in one conference per year. If travel expenses are being paid off of a grant, additional restrictions may apply (come speak with me if you are unsure).
+In general, the lab will provide up to ***$1,500 per person per year*** for full-time lab members to present their work at major conferences (e.g., ASMS, Keystone, HuPO), inclusive of registration, hotel, flights, meals, and related travel costs. This budget expectation applies to current and future travel planning. Conference travel support is contingent on (1) current funding for travel and (2) submitting an abstract for a poster or oral presentation. In general, the work should be "new" and it should be appropriate for the conference. This will usually result in one conference per year. If travel expenses are being paid off of a grant, additional restrictions may apply (come speak with me if you are unsure).
 
-If you are interested in attending a conference, come talk to me **at least 1 month** before the abstracts are due so that we can plan appropriately. The lab will pay for new lab members to attend one conference in their first year in lab (i.e. without presenting). If you wish to attend any other conference outside of these guidelines, come speak with me to ensure the availability of funds and appropriateness of the conference. **All of these guidelines, of course, depend on the availability of funds**. I highly recommend that lab members apply for other sources of funding available to them (e.g. departmental funds for grad students, ASMS travel awards).
+If you are interested in attending a conference, come talk to me **at least 1 month** before the abstracts are due so that we can plan appropriately. There is no automatic first-year exception to the abstract requirement; if special circumstances apply, discuss them with me in advance. If you wish to attend any conference outside of these guidelines, come speak with me to ensure the availability of funds and appropriateness of the conference. **All of these guidelines, of course, depend on the availability of funds**. I highly recommend that lab members apply for other sources of funding available to them (e.g. departmental funds for grad students, ASMS travel awards).
+
+Everyone who attends a conference will be expected to bring back what they learned to the lab. After the conference, prepare a short presentation highlighting the top 6 abstracts you saw: 3 posters and 3 talks. We will also often schedule meetings or dinners with collaborators during conferences, and you are expected to attend those events unless you have discussed a conflict with me in advance.
 
 ## Letters of Reference/Recommendation
 
@@ -107,5 +117,3 @@ interfere with your field of view.
 ### Project Specific PPE
 
 Each project may require specific or specialized PPE. Before beginning new work, check the lab's SOPs, LSM, BUA, etc. to ensure that you are using the right PPE for your work. Feel free to contact Devin if you need further clarification or guidance.
-
-
